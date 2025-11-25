@@ -5,7 +5,7 @@ from typing import List, Optional
 
 # User Schemas
 class UserBase(BaseModel):
-    email: EmailStr
+    email: str
     username: str
 
 
@@ -86,7 +86,7 @@ class PurchaseLog(LogBase):
 # Dashboard Schemas
 class DashboardSummary(BaseModel):
     total_emissions: float
-    emissions_trend: float  # percentage change
+    emissions_trend: float
     logs_count: int
 
 
