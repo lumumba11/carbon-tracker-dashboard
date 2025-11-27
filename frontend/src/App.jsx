@@ -13,7 +13,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 const CarbonTrackingDashboard = () => {
   const [currentView, setCurrentView] = useState('dashboard');
   const [userData, setUserData] = useState({
-    name: 'Eco Warrior',
+    name: 'Warrior',
     totalEmissions: 0,
     weeklyGoal: 50,
     streak: 0,
