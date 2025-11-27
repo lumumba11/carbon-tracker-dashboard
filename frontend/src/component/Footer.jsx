@@ -54,15 +54,15 @@ const Footer = ({ setCurrentView }) => {
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-green-400" />
-                <span className="text-gray-300">hello@carbontrack.com</span>
+                <span className="text-gray-300">carbontrack@gmail.com</span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-green-400" />
-                <span className="text-gray-300">+1 (555) 123-4567</span>
+                <span className="text-gray-300">+254 756 374 962</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="w-4 h-4 text-green-400" />
-                <span className="text-gray-300">Nairobi, Kenya</span>
+                <span className="text-gray-300">Eldoret, Kenya</span>
               </div>
             </div>
           </div>
