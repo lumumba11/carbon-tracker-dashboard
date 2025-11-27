@@ -108,7 +108,6 @@ carbon-tracking-dashboard/
 ## 🔧 API Endpoints
 
 ### Authentication
-- `POST /api/auth/register` - User registration
 - `POST /api/auth/token` - User login (JWT token)
 
 ### Emission Logging
