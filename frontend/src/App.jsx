@@ -28,12 +28,12 @@ const CarbonTrackingDashboard = () => {
         return <Insights userData={userData} />;
       case 'achievements':
         return <Achievements />;
-      case 'about':
-        return <About />;
-      case 'contact':
-        return <Contact />;
-      case 'privacy':
-        return <PrivacyPolicy />;
+     // case 'about':
+     //   return <About />;
+     // case 'contact':
+       // return <Contact />;
+   //   case 'privacy':
+      //  return <PrivacyPolicy />;
       default:
         return <Dashboard userData={userData} setUserData={setUserData} />;
     }
